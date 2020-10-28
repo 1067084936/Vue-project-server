@@ -5,11 +5,11 @@ set timestamp=%d% %t%
 
 set /p comments=please input commit comments:
 
+call npm run build
 git status
 git add .
 git commit -m "%timestamp% backup from windows, comments: %comments%"
 git push orgin master
-npm run build
 echo "提交成功"
 git log --stat -1
 pause
