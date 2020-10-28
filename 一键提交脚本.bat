@@ -5,7 +5,7 @@ set timestamp=%d% %t%
 
 set /p comments=please input commit comments:
 
-call npm run build
+start npm run build
 git status
 git add .
 git commit -m "%timestamp% backup from windows, comments: %comments%"
