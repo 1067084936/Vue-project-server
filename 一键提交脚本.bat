@@ -8,7 +8,7 @@ set /p comments=please input commit comments:
 git status
 git add .
 git commit -m "%timestamp% backup from windows, comments: %comments%"
-git push origin master
+git push orgin master
 echo "提交成功"
 git log --stat -1
 pause
