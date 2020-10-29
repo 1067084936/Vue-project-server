@@ -9,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: '《曦月萤惑帮会》222212312122112-三当家-县北草亡'
+      msg: 'Vue + 腾讯云服务器项目'
     }
   }
 }
