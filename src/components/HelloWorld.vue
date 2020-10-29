@@ -9,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Vue + 腾讯云服务器项目'
+      msg: 'Vue + 腾讯云服务器自动部署项目'
     }
   }
 }
